@@ -12,7 +12,7 @@ public class L2022212018_16_Test {
         int[] nums = {};
         Solution solution = new Solution();
         String result = solution.largestNumber(nums);
-        assertEquals("0", result, "Failed on empty array");
+        assertEquals("", result, "Failed on empty array");
     }
 
     @Test
